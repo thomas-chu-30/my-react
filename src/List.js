@@ -16,7 +16,7 @@ class List extends Component {
         <Items price={150} text="apple"></Items>
         <Items price={128} text="pineaple"></Items>
         <Items price={400} text="good job"></Items>
-        <Items>如果你要寫在這裡，就要用children</Items>
+        {/* <Items>如果你要寫在這裡，就要用children</Items> */}
       </div>
     );
   }

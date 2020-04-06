@@ -6,7 +6,7 @@ class Item extends Component {
   // }
   state = {
     title: "Message",
-    text: ""
+    text: "",
   };
   sayHi = () => {
     this.setState({ text: "Hi !!" });
@@ -20,7 +20,7 @@ class Item extends Component {
         <li>
           {this.props.text}({this.props.price + 1})
         </li>
-        <li>{this.props.children}</li>
+        {/* <li>{this.props.children}</li> */}
       </div>
     );
   }
